@@ -1,0 +1,13 @@
+MVC
+
+クライアントからリクエスト > Dispatcher Servlet > Controller > Model > View
+
+
+@contoller > アノテーションを付けることで自動的にインスタンス化される
+
+Controller
+メソッドの引数はモデルにする
+returnでhtmlファイルが呼び出される
+
+view
+xmlns:th="https://www.thymeleaf.org" > tgymeleafで動かす際に必要
